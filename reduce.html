@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <style>
+      h1 {
+        padding: 10px;
+        color: darkblue;
+        text-align: center;
+        background-color: rgb(130, 163, 172);
+      }
+
+      #div-master {
+        float: left;
+        width: 500px;
+        margin-left: 100px;
+      }
+
+      .divPhone {
+        margin: 5px;
+      }
+
+      .img {
+        margin-bottom: 15px;
+        margin-left: 10px;
+        width: 100px;
+      }
+
+      .class-p {
+        color: rgb(64, 80, 85);
+      }
+
+      .input-quant {
+        width: 30px;
+      }
+
+      #total {
+        font-size: 20px;
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        color: darkblue;
+        border: 2px solid rgba(67, 126, 141, 0.397);
+        background-color: rgba(130, 163, 172, 0.61);
+        margin-top: 750px;
+        padding: 5px;
+        padding-left: 550px;
+      }
+
+      button {
+        position: fixed;
+        margin-top: 800px;
+        padding: 8px;
+        margin-left: 100px;
+        background-color: rgba(252, 57, 57, 0.836);
+      }
+    </style>
+    <title>lOJA</title>
+  </head>
+  <body>
+    <main>
+      <h1>Sua Loja</h1>
+      <div id="div-master"></div>
+
+      <footer id="total">
+        <p>Total do carrinho:</p>
+        <span id="price-total"></span>
+      </footer>
+    </main>
+    <button>Continuar</button>
+    <script src="reduce.js"></script>
+  </body>
+</html>
