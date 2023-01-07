@@ -13,18 +13,18 @@
     <style>
       h1 {
         padding: 10px;
-        color: darkblue;
+        color: white;
         text-align: center;
         background-color: rgb(130, 163, 172);
       }
 
       #div-master {
-        float: left;
-        width: 500px;
-        margin-left: 100px;
+        width: 600px;
+        margin-left: 700px;
       }
 
       .divPhone {
+        display: inline-block;
         margin: 5px;
       }
 
@@ -44,22 +44,18 @@
 
       #total {
         font-size: 20px;
-        position: fixed;
-        width: 100%;
+        border-top: 3px solid rgba(130, 163, 172, 0.61);
+        width: 480px;
+        margin-left: 700px;
+        margin-top: 50px;
         height: 80px;
-        color: darkblue;
-        border: 2px solid rgba(67, 126, 141, 0.397);
-        background-color: rgba(130, 163, 172, 0.61);
-        margin-top: 750px;
+        color: rgb(2, 55, 85);
         padding: 5px;
-        padding-left: 550px;
       }
 
       button {
-        position: fixed;
-        margin-top: 800px;
         padding: 8px;
-        margin-left: 100px;
+        margin-left: 880px;
         background-color: rgba(252, 57, 57, 0.836);
       }
     </style>
@@ -67,15 +63,15 @@
   </head>
   <body>
     <main>
-      <h1>Sua Loja</h1>
+      <h1>CelAmar - Sua Loja de Celular</h1>
       <div id="div-master"></div>
 
       <footer id="total">
         <p>Total do carrinho:</p>
         <span id="price-total"></span>
       </footer>
+      <button>Continuar</button>
     </main>
-    <button>Continuar</button>
     <script src="reduce.js"></script>
   </body>
 </html>

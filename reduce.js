@@ -3,37 +3,31 @@ const divMaster = document.querySelector('#div-master');
 
 const cart = [
   {
-    id: 0,
     phone: 'Sansumg 7',
     price: '599.99',
     total: 0,
   },
   {
-    id: 1,
     phone: 'Iphone 14',
     price: '5599.99',
     total: 0,
   },
   {
-    id: 2,
     phone: 'Sansumg 10',
     price: '799.99',
     total: 0,
   },
   {
-    id: 3,
     phone: 'Iphone 11',
     price: '3099.99',
     total: 0,
   },
   {
-    id: 4,
     phone: 'Xiome',
     price: '999.99',
     total: 0,
   },
   {
-    id: 5,
     phone: 'LG 20',
     price: '2999.99',
     total: 0,
@@ -90,6 +84,8 @@ const createDivs = () => {
     div.classList.add('divPhone');
     const creatInput = document.createElement('input');
     creatInput.id = index;
+    creatInput.min = '0';
+    creatInput.value = '0';
     creatInput.classList.add('input-quant');
     creatInput.type = 'number';
     const img = document.createElement('img');
